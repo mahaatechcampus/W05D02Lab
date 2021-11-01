@@ -2,7 +2,8 @@
 * Install redux using npm install
 * Import redux
 * Create redux store
-* Create reducer that will return the counter+1
-* Create a function called for example counterSubscriber and use getState to get the updated value of the counter and here you will console the counter
-* Use subscribe to excute counterSubscriber function
-* Create dispatch that will assign increment type the counter
+* Create reducer increment that will return the counter+1
+* Create reducer decrement that will return the counter-1
+* Create reducer reset that will return the counter to 0
+* Create actions for increment, decrement and reset
+* Create dispatch that send the actions to the reducer (using useDispatch)
